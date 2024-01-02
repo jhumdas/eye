@@ -5,8 +5,39 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <section class="footer">
-    <div class="container">
-        footer
+    <div class="Cust_container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="logo">
+                    <img src='assets/imgaes/logo.png' alt='' />
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="boxx">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li class="mb-3">The Address, 5th Floor Work Ez Featherlite, 203/10B, 200 ft. MMRD Road, Pallavaram, Chennai - 600044 TN, India</li>
+                        <li>Tel: +91 73050 34294</li>
+                        <li> Email: sales@asset-eyes.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div>
+                <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">HVAC</a> </li>
+                        <li><a href="#">FAQs</a> </li>
+                        <li> <a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

@@ -20,25 +20,42 @@
 
 <section class="header">
     <div class="Cust_container">
-      <div class="row" style="align-items:center;">
-        <div class="col-lg-3 col-md-3 col-12">
-            <div class="logo">
-                <img src='assets/imgaes/logo.png' alt=''/>
+        <div class="row" style="align-items:center;">
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="logo">
+                    <img src='assets/imgaes/logo.png' alt='' />
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-6">
+                <ul class="navMenu">
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Industry</a></li>
+                    <li><a href='#'>FAQs</a></li>
+                    <li><a href='#'>Blog</a></li>
+                    <li><a href='#'>Contact Us</a></li>
+
+                </ul>
+                <div class="toggole" onclick="openSidebar ()">
+                    <a href="#"><i class="fa-solid fa-bars-staggered"></i></a>
+                </div>
+
+                <div class="mobile_sidebar" id="mobile_sidebar">
+                    <a href="#" class="closeBtn" onclick="closeSidebar ()"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                    <ul class="nav_Menu">
+                        <li><a href='#'>Home</a></li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Industry</a></li>
+                        <li><a href='#'>FAQs</a></li>
+                        <li><a href='#'>Blog</a></li>
+                        <li><a href='#'>Contact Us</a></li>
+
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-lg-9 col-md-9 col-12">
-            <ul class="navMenu">
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Industry</a></li>
-                <li><a href='#'>FAQs</a></li>
-                <li><a href='#'>Blog</a></li>
-                <li><a href='#'>Contact Us</a></li>
-
-            </ul>
-        </div>
-      </div>
     </div>
 </section>
+
 
 <body>
