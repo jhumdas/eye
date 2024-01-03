@@ -77,11 +77,119 @@
             <h3>Chiller System</h3>
         </div>
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-12">
-                <div class="domaincontainSection">
-                    <!-- <div class="domainTitle">
-                        <h5>Ventilation system</h5>
-                    </div> -->
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="ProductDtls">
+                    <ul>
+                        <li>Preparation of general Assembly drawing of Chiller Equipment.</li>
+                        <li>Detailed component drawing based on the selection of component.</li>
+                        <li>Fabrication drawing up to the component level.</li>
+                        <li>Ensuring proper facility for servicing of chiller (in the form of access) at
+                            the drawing board stage itself (Checking interference in the 3D layout)</li>
+                        <li>Arriving at Bill of Material and Bill of Quantity up to the level of
+                            consumables</li>
+                        <li> Capable of supporting different type of refrigerant chillers (Ammonia, CFC, HFC etc.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-12">
+                <div class="productimg">
+                    <img src="assets/imgaes/productImg1.png" alt="..." />
+                </div>
+            </div>
+        </div>
+        <div class="productNameTitle">
+            <h3>Air Handling Unit for Direct & Indirect Expansion along with Desiccant Dryer</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="ProductDtls">
+                    <ul>
+                        <li>Preparation of general Assembly drawing of Chiller Equipment.</li>
+                        <li>Detailed component drawing based on the selection of component.</li>
+                        <li>Fabrication drawing up to the component level.</li>
+                        <li>Ensuring proper facility for servicing of chiller (in the form of access) at
+                            the drawing board stage itself (Checking interference in the 3D layout)</li>
+                        <li>Arriving at Bill of Material and Bill of Quantity up to the level of
+                            consumables</li>
+                        <li> Capable of supporting different type of refrigerant chillers (Ammonia, CFC, HFC etc.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-12">
+                <div class="productimg">
+                    <img src="assets/imgaes/productImg2.png" alt="..." />
+                </div>
+            </div>
+        </div>
+        <div class="productNameTitle">
+            <h3>Chilled Water Distribution System</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="ProductDtls">
+                    <ul>
+                        <li>Preparation of general Assembly drawing of Chiller Equipment.</li>
+                        <li>Detailed component drawing based on the selection of component.</li>
+                        <li>Fabrication drawing up to the component level.</li>
+                        <li>Ensuring proper facility for servicing of chiller (in the form of access) at
+                            the drawing board stage itself (Checking interference in the 3D layout)</li>
+                        <li>Arriving at Bill of Material and Bill of Quantity up to the level of
+                            consumables</li>
+                        <li> Capable of supporting different type of refrigerant chillers (Ammonia, CFC, HFC etc.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-12">
+                <div class="productimg">
+                    <img src="assets/imgaes/productImg3.png" alt="..." />
+                </div>
+            </div>
+        </div>
+        <div class="productNameTitle">
+            <h3>Air Distribution System (Chilled Air & Ventilation Air)</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="ProductDtls">
+                    <ul>
+                        <li>Preparation of general Assembly drawing of Chiller Equipment.</li>
+                        <li>Detailed component drawing based on the selection of component.</li>
+                        <li>Fabrication drawing up to the component level.</li>
+                        <li>Ensuring proper facility for servicing of chiller (in the form of access) at
+                            the drawing board stage itself (Checking interference in the 3D layout)</li>
+                        <li>Arriving at Bill of Material and Bill of Quantity up to the level of
+                            consumables</li>
+                        <li> Capable of supporting different type of refrigerant chillers (Ammonia, CFC, HFC etc.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-12">
+                <div class="productimg">
+                    <img src="assets/imgaes/productImg4.png" alt="..." />
+                </div>
+            </div>
+        </div>
+        <div class="productNameTitle">
+            <h3>Rack Refrigeration System</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="ProductDtls">
+                    <ul>
+                        <li>Preparation of general Assembly drawing of Chiller Equipment.</li>
+                        <li>Detailed component drawing based on the selection of component.</li>
+                        <li>Fabrication drawing up to the component level.</li>
+                        <li>Ensuring proper facility for servicing of chiller (in the form of access) at
+                            the drawing board stage itself (Checking interference in the 3D layout)</li>
+                        <li>Arriving at Bill of Material and Bill of Quantity up to the level of
+                            consumables</li>
+                        <li> Capable of supporting different type of refrigerant chillers (Ammonia, CFC, HFC etc.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-12">
+                <div class="productimg">
+                    <img src="assets/imgaes/productImg5.png" alt="..." />
                 </div>
             </div>
         </div>

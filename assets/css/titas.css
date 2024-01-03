@@ -415,13 +415,131 @@
     font-weight: 600;
     line-height: 150%;
     letter-spacing: 0.8px;
+    margin-bottom: 50px;
 }
 
+.ProductDtlsSection .row {
+    align-items: flex-start;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
 
+.ProductDtls {
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
 
+.ProductDtls::-webkit-scrollbar {
+    display: none;
+}
 
+.ProductDtls ul li {
+    list-style-type: disc;
+}
 
+.ProductDtls ul {
+    padding-left: 20px;
+}
 
+.ProductDtls li {
+    color: #E3E3E3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    letter-spacing: 0.36px;
+    margin-bottom: 10px;
+}
+
+.productimg {
+    width: 100%;
+    height: 350px;
+}
+
+.productimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.blogSection {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    /* background-color: #383838; */
+}
+
+.articles a:hover {
+    text-decoration: none;
+}
+
+.blogSection .row {
+    row-gap: 80px;
+}
+
+.blogTitle h3 {
+    color: #455B78;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 2.4px;
+    margin-bottom: 70px;
+}
+
+.blogCard:hover {
+    text-decoration: none;
+}
+
+.blogImg {
+    width: 100%;
+    height: 265px;
+}
+
+.blogImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 46px;
+}
+
+.blogcardTitle h6 {
+    padding: 20px 25px;
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+}
+
+.blogdtlsImg {
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto 50px;
+}
+
+.blogdtlsImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+}
+.blogdtls p{
+    color: #E3E3E3;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+    margin-bottom: 25px;
+}
 
 
 
@@ -434,7 +552,7 @@
     }
 
     .bannerTitle h2 {
-        font-size: 50px;
+        font-size: 39px;
     }
 
     .aboutDtls p {
@@ -480,16 +598,90 @@
     .domainTitle h5 {
         line-height: 135%;
     }
+
+    .areaDtls {
+        width: 290px;
+    }
+
+    .areaContain {
+        width: 290px;
+    }
+
+    .areaContainSection {
+        max-width: 610px;
+    }
+
+    .ProductDtlsSection {
+        padding: 40px 0px;
+    }
+
+    .areaSection {
+        padding: 40px 0px;
+    }
+
+    .ProductDtls li {
+        font-size: 16px;
+        line-height: 180%;
+    }
+
+    .productNameTitle h3 {
+        margin-bottom: 30px;
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    .productimg {
+        height: 275px;
+    }
+
+    .ProductDtlsSection .row {
+        margin-bottom: 50px;
+    }
+
+    .blogImg {
+        height: 200px;
+    }
+
+    .blogcardTitle h6 {
+        padding: 13px 17px;
+        font-size: 17px;
+    }
+
+    .blogTitle h3 {
+        margin-bottom: 50px;
+        font-size: 44px;
+    }
+
+    .blogSection .row {
+        row-gap: 60px;
+    }
+
+    .blogSection {
+        padding: 40px 0px;
+    }
+    .blogdtlsImg{
+        height: 330px;
+    }
+    .blogdtls p {
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width:767px) {
+    .bannerTitle h2 {
+        font-size: 28px;
+    }
+
     .aboutBannerImg {
         height: 285px;
     }
 
-    .bannerTitle h2 {
+    /* .bannerTitle h2 {
         font-size: 43px;
-    }
+    } */
 
     .aboutDtls p {
         font-size: 16px;
@@ -540,11 +732,71 @@
     .DomainSection .row:last-child {
         margin: 0px 0px 30px;
     }
+
+    .areaContainSection {
+        max-width: 530px;
+    }
+
+    .areaDtls {
+        max-width: 250px;
+    }
+
+    .areaContain {
+        max-width: 250px;
+    }
+
+    .areaContain p {
+        font-size: 14px;
+    }
+
+    .areaSection {
+        padding: 30px 0px;
+    }
+
+    .ProductDtlsSection {
+        padding: 30px 0px;
+    }
+
+    .ProductDtlsSection .row {
+        gap: 30px;
+    }
+
+    .productimg {
+        height: 312px;
+    }
+
+    .productNameTitle h3 {
+        margin-bottom: 26px;
+        font-size: 30px;
+        line-height: 128%;
+    }
+
+    .ProductDtls {
+        height: 300px;
+    }
+
+    .blogTitle h3 {
+        margin-bottom: 37px;
+        font-size: 38px;
+    }
+
+    .blogSection .row {
+        row-gap: 40px;
+    }
+    .blogdtlsImg {
+        height: 280px;
+    }
+    .blogdtls p {
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.3px;
+        margin-bottom: 22px;
+    }
 }
 
 @media(max-width:575px) {
     .bannerTitle h2 {
-        font-size: 38px;
+        font-size: 22px;
     }
 
     .aboutBannerImg {
@@ -593,11 +845,80 @@
         margin: 20px 0px 40px;
         row-gap: 35px;
     }
+
+    .areaContainSection {
+        max-width: 440px;
+        column-gap: 20px;
+    }
+
+    .areaDtls {
+        max-width: 210px;
+        padding: 5px 15px;
+    }
+
+    .areaDtls p {
+        font-size: 13px;
+    }
+
+    .areaContain {
+        max-width: 210px;
+        padding: 5px 15px;
+    }
+
+    .areaContain p {
+        font-size: 13px;
+    }
+
+    .areaTitle h3 {
+        font-size: 35px;
+    }
+
+    .areaSection {
+        padding: 20px 0px;
+    }
+
+    .ProductDtlsSection {
+        padding: 20px 0px;
+    }
+
+    .ProductDtls li {
+        font-size: 15px;
+        line-height: 170%;
+    }
+
+    .productimg {
+        height: 285px;
+    }
+
+    .ProductDtls {
+        height: 300px;
+    }
+
+    .blogImg {
+        height: 256px;
+        max-width: 395px;
+        margin: 0 auto;
+    }
+
+    .blogcardTitle h6 {
+        padding: 15px 45px;
+        font-size: 20px;
+    }
+
+    .blogSection .row {
+        row-gap: 25px;
+    }
+    .blogdtlsImg {
+        height: 245px;
+        margin: 0 auto 40px;
+    }
+
 }
 
 @media(max-width:480px) {
     .bannerTitle h2 {
         font-size: 26px;
+        text-align: center;
     }
 
     .aboutBannerImg {
@@ -678,5 +999,89 @@
 
     .domainContain ul {
         padding-left: 15px;
+    }
+
+    .areaContainSection {
+        max-width: 300px;
+    }
+
+    .areaContain {
+        max-width: 137px;
+        padding: 5px 8px;
+    }
+
+    .areaDtls {
+        max-width: 137px;
+        padding: 5px 8px;
+    }
+
+    .areaContain p {
+        font-size: 11px;
+    }
+
+    .areaDtls p {
+        font-size: 11px;
+    }
+
+    .ProductDtlsSection {
+        margin-top: -5px;
+    }
+
+    .areaTitle h3 {
+        font-size: 28px;
+        line-height: 105%;
+    }
+
+    .productNameTitle h3 {
+        margin-bottom: 22px;
+        font-size: 24px;
+        line-height: 125%;
+    }
+
+    .ProductDtls li {
+        font-size: 13px;
+        line-height: 160%;
+    }
+
+    .productimg {
+        height: 230px;
+    }
+
+    .ProductDtlsSection .row {
+        gap: 20px;
+    }
+
+    .blogTitle h3 {
+        margin-bottom: 33px;
+        font-size: 28px;
+    }
+
+    .blogImg {
+        height: 210px;
+    }
+
+    .blogcardTitle h6 {
+        padding: 12px 15px;
+        font-size: 18px;
+    }
+
+    .blogSection {
+        padding: 30px 0px;
+    }
+    .blogdtlsImg {
+        height: 180px;
+        margin: 0 auto 30px;
+    }
+    .productNameTitle h3 {
+        margin-bottom: 22px;
+        font-size: 21px;
+        line-height: 129%;
+    }
+    .blogdtls p {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: normal;
+        margin-bottom: 19px;
+        text-align: start;
     }
 }

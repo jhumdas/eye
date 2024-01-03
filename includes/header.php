@@ -46,7 +46,7 @@
                     <li><a href='About.php'>About</a></li>
                     <li><a href='HVAC.php'>Industry</a></li>
                     <li><a href='#'>FAQs</a></li>
-                    <li><a href='#'>Blog</a></li>
+                    <li><a href='blog.php'>Blog</a></li>
                     <li><a href='#'>Contact Us</a></li>
 
                 </ul>
@@ -57,11 +57,11 @@
                 <div class="mobile_sidebar" id="mobile_sidebar">
                     <a href="#" class="closeBtn" onclick="closeSidebar ()"><i class="fa-solid fa-rectangle-xmark"></i></a>
                     <ul class="nav_Menu">
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Industry</a></li>
+                        <li><a href='home.php'>Home</a></li>
+                        <li><a href='About.php'>About</a></li>
+                        <li><a href='HVAC.php'>Industry</a></li>
                         <li><a href='#'>FAQs</a></li>
-                        <li><a href='#'>Blog</a></li>
+                        <li><a href='blog.php'>Blog</a></li>
                         <li><a href='#'>Contact Us</a></li>
 
                     </ul>
