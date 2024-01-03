@@ -28,6 +28,14 @@ ul {
   margin: 0 auto;
 }
 /***header***/
+.header.sticky {
+  /* background: #efc47d; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  box-shadow: 4px 1px 8px 2px rgba(0, 0, 0, 0.3);
+}
 .header {
   background: #d5eaee;
   width: 100%;
@@ -38,6 +46,7 @@ ul {
   gap: 30px;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 0;
 }
 .navMenu li a {
   color: #486284;
@@ -74,42 +83,30 @@ ul {
   position: fixed;
   left: 0;
   z-index: 2;
-  transition: .5s;
+  transition: 0.5s;
   top: 0;
 }
-.closeBtn{
-   position: absolute;
-   top: 10px;
-   right: 10px; 
-   color: #fff;
-   font-size: 20px;
-   z-index: 3;
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+  z-index: 3;
 }
-.closeBtn:hover{
-    color: #fff;
+.closeBtn:hover {
+  color: #fff;
 }
 .mobile_sidebar .nav_Menu li a {
   color: #fff;
   padding: 10px 0;
   display: inline-block;
 }
-.mobile_sidebar.open{
-    transform: translateX(0);
-    transition: .5s; 
+.mobile_sidebar.open {
+  transform: translateX(0);
+  transition: 0.5s;
 }
-/**banner***/
-.banner_slide {
-  background-image: url(../imgaes/banner1.png);
-  height: 678px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-.banner_slide img {
-  height: 100%;
-  width: 100%;
-}
+
 /***footer****/
 .footer {
   background: #d5eaee;
@@ -142,6 +139,148 @@ ul {
   font-weight: 500;
   margin-bottom: 10px;
 }
+
+/**banner***/
+.banner_slide {
+  background-image: url(../imgaes/banner1.png);
+  height: 678px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.banner_slide img {
+  height: 100%;
+  width: 100%;
+}
+
+/***service***/
+.empowering {
+  background: #383838;
+  padding-bottom: 50px;
+}
+.services {
+  padding: 50px 50px;
+}
+.services h3 {
+  color: #e3e3e3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.services p {
+  color: #e3e3e3;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.sec-heading {
+  text-transform: capitalize;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  color: #e3e3e3;
+}
+.sec-heading:after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #e3e3e3;
+  transform: translate(0px, 20px);
+  bottom: 0;
+  left: 50%;
+}
+.services .image {
+  width: 100%;
+  height: 317px;
+  position: relative;
+  overflow: hidden;
+}
+.services .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.onHover {
+  position: absolute;
+  border-radius: 25px;
+  background: rgba(51, 53, 89, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  transform: translateY(100%);
+  transition: all ease-in-out 0.5s;
+
+}
+.services .image:hover .onHover{
+  transform: translateY(0);
+  transition: all ease-in-out 1s;
+
+}
+.services .box{
+  margin-top: 30px;
+}
+.services .box h5 {
+  color: #e3e3e3;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 52px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.line{
+  background-color: #9F9F9F;
+  width: 80%;
+  height: 3px;
+  margin: 100px auto 0 auto;
+
+}
+.articles .image{
+  width: 100%;
+  height: 276px;
+}
+.articles .image img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.articles h6{
+  margin-top: 20px;
+  color: #E3E3E3;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+height:50px;
+overflow: hidden;
+}
+.featured{
+margin-top: 50px;
+}
+/***responsive***/
+
 @media (max-width: 991px) {
   .banner_slide {
     height: 490px;
@@ -164,7 +303,7 @@ ul {
   .toggole a {
     display: block;
   }
-  .toggole a:hover{
+  .toggole a:hover {
     color: #000;
   }
   .navMenu {
@@ -174,9 +313,9 @@ ul {
     height: auto;
   }
 }
-@media (max-width:480px){
-    .mobile_sidebar{
-        width: 100%;
-        height: 100%;
-    }
+@media (max-width: 480px) {
+  .mobile_sidebar {
+    width: 100%;
+    height: 100%;
+  }
 }
