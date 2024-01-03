@@ -37,12 +37,12 @@
         <div class="row" style="align-items:center;">
             <div class="col-lg-3 col-md-3 col-6">
                 <div class="logo">
-                    <img src='assets/imgaes/logo.png' alt='' />
+                    <a href="home.php"><img src='assets/imgaes/logo.png' alt='' /></a>
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-6">
                 <ul class="navMenu">
-                    <li><a href='#'>Home</a></li>
+                    <li><a href='home.php'>Home</a></li>
                     <li><a href='About.php'>About</a></li>
                     <li><a href='HVAC.php'>Industry</a></li>
                     <li><a href='#'>FAQs</a></li>

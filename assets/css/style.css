@@ -55,6 +55,11 @@ ul {
   font-style: normal;
   font-weight: 500;
 }
+.navMenu li a:hover{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
 .logo {
   width: 211px;
   height: 81px;
