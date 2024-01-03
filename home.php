@@ -102,7 +102,7 @@
         <div class="aboutContain">
             <div class="hvacSection mt-0">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
