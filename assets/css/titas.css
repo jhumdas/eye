@@ -35,7 +35,7 @@
     width: 100%;
     height: auto;
     color: #FFF;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 800;
@@ -80,13 +80,13 @@
 .aboutTitle h5 {
     color: #E3E3E3;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 1.5px;
-    margin-bottom: 20px;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    /* margin-bottom: 20px; */
 }
 
 .aboutDtls p {
@@ -112,6 +112,12 @@
     border-radius: 36px;
     border: 2px solid #D9D9D9;
     padding: 20px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.mechanicalCards:hover {
+    border: 3px solid #D9D9D9;
 }
 
 .cardimg {
@@ -125,14 +131,22 @@
     width: 100%;
     height: 100%;
 }
-.cardcontain{
+
+.cardcontain {
     padding-top: 20px;
+    width: 100%;
+    height: 235px;
+    overflow-y: auto;
+}
+
+.cardcontain::-webkit-scrollbar {
+    display: none;
 }
 
 .cardTitle h6 {
     color: #E3E3E3;
     text-align: center;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -153,12 +167,11 @@
 .cardcontain li {
     color: #E3E3E3;
     text-align: justify;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 220%;
-    /* 26.4px */
 }
 
 .lernMore {
@@ -180,19 +193,231 @@
     justify-content: center;
     gap: 7px;
     color: #E3E3E3;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
 }
 
-.DomainSection{
+.leunBtn:hover {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+.DomainSection {
     width: 100%;
     height: auto;
-    padding: 0px 0px 20px;
+    padding: 40px 0px;
     background-color: #383838;
 }
+
+.DomainSection .row {
+    align-items: center;
+    margin: 20px 0px 80px;
+}
+
+.domainTitle h5 {
+    color: #E3E3E3;
+    /* text-align: justify; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+
+.domainContain {
+    width: 100%;
+    height: 220px;
+    overflow-y: auto;
+}
+
+.domainContain::-webkit-scrollbar {
+    display: none;
+}
+
+.domainContain ul {
+    padding-left: 20px;
+}
+
+.domainContain ul li {
+    list-style-type: decimal;
+}
+
+.domainContain li {
+    color: #E3E3E3;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 5px;
+}
+
+.domainImg1 {
+    width: 100%;
+    height: 202px;
+}
+
+.domainImg1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.domainImg {
+    width: 100%;
+    height: 345px;
+}
+
+.domainImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 2px solid #CDCDCD;
+}
+
+.hvacDtlsSection {
+    width: 100%;
+    height: auto;
+    background-color: #383838;
+}
+
+.hvacDtls {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 80px;
+}
+
+.hvacDtlsTitle h6 {
+    color: #E3E3E3;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.hvacDtlsContain p {
+    color: #E3E3E3;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.hvacDtlsContain ul {
+    padding-left: 20px;
+}
+
+.hvacDtlsContain ul li {
+    list-style-type: disc;
+}
+
+.hvacDtlsContain li {
+    color: #E3E3E3;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    /* 32px */
+}
+
+.areaSection {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #383838;
+}
+
+.areaTitle {
+    align-items: center;
+}
+
+.areaTitle h3 {
+    color: #E3E3E3;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.areaContainSection {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 30px;
+}
+
+.areaDtls {
+    width: 379px;
+    height: auto;
+    background: #BFD1EA;
+    padding: 7px 20px;
+    margin-bottom: 15px;
+}
+
+.areaDtls p {
+    color: #0E0E0E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    margin: 0;
+}
+
+.areaContain {
+    width: 379px;
+    height: auto;
+    background: #6A6A6A;
+    padding: 7px 20px;
+    margin-bottom: 15px;
+}
+
+.areaContain p {
+    color: #E3E3E3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0;
+    letter-spacing: 0.48px;
+}
+
+.ProductDtlsSection {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #383838;
+}
+
+.productNameTitle h3 {
+    color: #E3E3E3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.8px;
+}
+
+
 
 
 
@@ -219,6 +444,42 @@
     .aboutcontenSection {
         padding: 60px 0px;
     }
+
+    .hvacSection .row {
+        row-gap: 30px;
+    }
+
+    .hvacSection {
+        margin-top: 50px;
+    }
+
+    .cardimg {
+        height: 170px;
+    }
+
+    .lernMore {
+        padding-top: 15px;
+    }
+
+    .domainContain li {
+        font-size: 15px;
+    }
+
+    .domainImg {
+        height: 295px;
+    }
+
+    .DomainSection {
+        padding: 25px 0px;
+    }
+
+    .DomainSection .row {
+        margin: 20px 0px 65px;
+    }
+
+    .domainTitle h5 {
+        line-height: 135%;
+    }
 }
 
 @media(max-width:767px) {
@@ -238,6 +499,46 @@
 
     .aboutcontenSection {
         padding: 45px 0px;
+    }
+
+    .domainImg1 {
+        height: 295px;
+    }
+
+    .domainContain {
+        height: 180px;
+    }
+
+    .DomainSection .row {
+        row-gap: 30px;
+    }
+
+    .cardcontain li {
+        text-align: start;
+    }
+
+    .mechanicalCards {
+        padding: 10px;
+    }
+
+    .hvacDtls {
+        padding: 0px 0px 50px;
+    }
+
+    .hvacDtlsContain li {
+        font-size: 15px;
+    }
+
+    .hvacDtlsContain p {
+        font-size: 15px;
+    }
+
+    .hvacDtlsTitle h6 {
+        margin-bottom: 20px;
+    }
+
+    .DomainSection .row:last-child {
+        margin: 0px 0px 30px;
     }
 }
 
@@ -263,6 +564,35 @@
         font-size: 30px;
         margin-bottom: 12px;
     }
+
+    .domainImg1 {
+        height: 250px;
+    }
+
+    .domainImg {
+        height: 250px;
+    }
+
+    .cardimg {
+        height: 220px;
+    }
+
+    .cardcontain li {
+        font-size: 13px;
+    }
+
+    .mechanicalCards {
+        height: 592px;
+    }
+
+    .hvacSection {
+        margin-top: 30px;
+    }
+
+    .DomainSection .row {
+        margin: 20px 0px 40px;
+        row-gap: 35px;
+    }
 }
 
 @media(max-width:480px) {
@@ -286,5 +616,67 @@
     .aboutTitle h5 {
         font-size: 28px;
         margin-bottom: 9px;
+    }
+
+    .cardimg {
+        height: 170px;
+    }
+
+    .mechanicalCards {
+        height: 546px;
+    }
+
+    .aboutTitle h5 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .domainTitle h5 {
+        line-height: 114%;
+        font-size: 25px;
+    }
+
+    /* .domainContain {
+        height: 303px;
+    } */
+    .domainContain li {
+        font-size: 14px;
+    }
+
+    .DomainSection .row {
+        row-gap: 35px;
+    }
+
+    /* .domainContain {
+        height: 288px;
+    } */
+    .domainImg {
+        height: 210px;
+    }
+
+    .domainImg1 {
+        height: 210px;
+    }
+
+    .hvacDtls {
+        padding: 0px 0px 20px;
+    }
+
+    .hvacDtlsContain p {
+        font-size: 14px;
+    }
+
+    .hvacDtlsContain ul {
+        padding-left: 15px;
+    }
+
+    .hvacDtlsContain li {
+        font-size: 14px;
+        line-height: 185%;
+        text-align: start;
+    }
+
+    .domainContain ul {
+        padding-left: 15px;
     }
 }
