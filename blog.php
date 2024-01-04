@@ -16,7 +16,7 @@
     </div>
 </section>
 
-<section class="blogSection">
+<section class="blogSection" data-aos="fade-up"  data-aos-duration="2000">
     <div class="Cust_container">
         <div class="blogTitle">
             <h3>Featured Articles</h3>

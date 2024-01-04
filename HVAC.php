@@ -24,7 +24,7 @@
             </div>
             <div class="hvacSection">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23809.png" alt="img" />
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23811.png" alt="img" />
@@ -108,7 +108,7 @@
             <h5>Our Domain Exposure</h5>
         </div>
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-12">
+            <div class="col-lg-7 col-md-7 col-12" data-aos="fade-right" data-aos-duration="3000">
                 <div class="domaincontainSection">
                     <div class="domainTitle">
                         <h5>Ventilation system</h5>
@@ -123,14 +123,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-5 col-12">
+            <div class="col-lg-5 col-md-5 col-12" data-aos="fade-left" data-aos-duration="3000">
                 <div class="domainImg1">
                     <img src="assets/imgaes/domain1.png" alt="img">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-12">
+            <div class="col-lg-7 col-md-7 col-12" data-aos="fade-right" data-aos-duration="3000">
                 <div class="domaincontainSection">
                     <div class="domainTitle">
                         <h5>Comfort and Precision Air Conditioning system</h5>
@@ -145,14 +145,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-5 col-12">
+            <div class="col-lg-5 col-md-5 col-12" data-aos="fade-left" data-aos-duration="3000">
                 <div class="domainImg">
                     <img src="assets/imgaes/domain2.jpeg" alt="img">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-12">
+            <div class="col-lg-7 col-md-7 col-12" data-aos="fade-right" data-aos-duration="3000">
                 <div class="domaincontainSection">
                     <div class="domainTitle">
                         <h5>Air Distribution system/Ducting system</h5>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-5 col-12">
+            <div class="col-lg-5 col-md-5 col-12" data-aos="fade-left" data-aos-duration="3000">
                 <div class="domainImg">
                     <img src="assets/imgaes/domain3.png" alt="img">
                 </div>
@@ -178,7 +178,7 @@
 
 <section class="hvacDtlsSection">
     <div class="Cust_container">
-        <div class="hvacDtls">
+        <div class="hvacDtls" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="hvacDtlsTitle">
                 <h6>What do we Offer?</h6>
             </div>
@@ -189,7 +189,7 @@
                     strive to deliver solutions that exceed expectations while adhering to the highest standards of quality and cybersecurity.</p>
             </div>
         </div>
-        <div class="hvacDtls">
+        <div class="hvacDtls" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="hvacDtlsTitle">
                 <h6>Data Protection</h6>
             </div>
@@ -201,7 +201,7 @@
                     and integrity.</p>
             </div>
         </div>
-        <div class="hvacDtls">
+        <div class="hvacDtls" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="hvacDtlsTitle">
                 <h6>Key Takeaways</h6>
             </div>

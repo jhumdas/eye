@@ -32,7 +32,7 @@
                     realize their vision.</p>
             </div>
 
-            <div class="wrap">
+            <div class="wrap" data-aos="zoom-in" data-aos-duration="3000">
                 <h3 class="sec-heading">Engineering Services</h3>
                 <div class="row mt-5">
                     <div class="col-lg-4 col-md-6 col-12">
@@ -102,7 +102,7 @@
         <div class="aboutContain">
             <div class="hvacSection mt-0">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="mechanicalCards">
                             <div class="cardimg">
                                 <img src="assets/imgaes/Rectangle 23796.png" alt="img" />
@@ -180,7 +180,7 @@
             </div>
         </div>
 
-        <div class="articles">
+        <div class="articles" data-aos="zoom-in-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <h3 class="sec-heading">Featured Articles</h3>
             <div class="featured">
                 <div class="swiper mySwiper">
@@ -293,20 +293,21 @@
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
+        loop: true,
         breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 3,
+
+            },
+            1024: {
+                slidesPerView: 4,
+
+            },
         },
-        768: {
-          slidesPerView: 3,
-        
-        },
-        1024: {
-          slidesPerView: 4,
-      
-        },
-      },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

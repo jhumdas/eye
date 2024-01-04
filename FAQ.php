@@ -19,7 +19,7 @@
 
 <section class="faqSection">
     <div class="Cust_container">
-        <div class="aboutContain">
+        <div class="aboutContain" data-aos="zoom-in" data-aos-duration="3000">
             <div class="faqTitle">
                 <h5>FAQs</h5>
             </div>
@@ -85,7 +85,7 @@
 
 <section class="faqSection">
     <div class="Cust_container">
-        <div class="aboutContain">
+        <div class="aboutContain" data-aos="zoom-in-right" data-aos-duration="2000">
             <div class="ContactSection">
                 <div class="contactTitle">
                     <h4>Any other questions? </h4>

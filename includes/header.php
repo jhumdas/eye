@@ -31,6 +31,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -47,7 +49,16 @@
                 <ul class="navMenu">
                     <li><a href='home.php'>Home</a></li>
                     <li><a href='About.php'>About</a></li>
-                    <li><a href='HVAC.php'>Industry</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button onclick="myheaderFunction()" class="dropbtn">Industry <i class="fa-solid fa-angle-down"></i></button>
+                            <div id="myheaderDropdown" class="dropdown-content">
+                                <a href="HVAC.php">HVAC</a>
+                                <a href="#">Lorem Ipsum</a>
+                                <a href="#">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href='FAQ.php'>FAQs</a></li>
                     <li><a href='blog.php'>Blog</a></li>
                     <li><a href='contact.php'>Contact Us</a></li>
@@ -62,7 +73,16 @@
                     <ul class="nav_Menu">
                         <li><a href='home.php'>Home</a></li>
                         <li><a href='About.php'>About</a></li>
-                        <li><a href='HVAC.php'>Industry</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button onclick="mysidebarFunction()" class="dropbtn">Industry <i class="fa-solid fa-angle-down"></i></button>
+                                <div id="mysidebarDropdown" class="dropdown-content">
+                                    <a href="HVAC.php">HVAC</a>
+                                    <a href="#">Lorem Ipsum</a>
+                                    <a href="#">Lorem Ipsum</a>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href='FAQ.php'>FAQs</a></li>
                         <li><a href='blog.php'>Blog</a></li>
                         <li><a href='contact.php'>Contact Us</a></li>

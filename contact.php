@@ -19,7 +19,7 @@
     <div class="Cust_container">
         <div class="aboutContain">
             <div class="ContactSection">
-                <div class="contactTitle">
+                <div class="contactTitle" data-aos="flip-left"  data-aos-duration="3000">
                     <div class="contactus">
                         <h4>Contact Us</h4>
                     </div>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contactForm">
+                <div class="contactForm" data-aos="flip-right"   data-aos-duration="3000">
                     <div class="getTitle">
                         <h4>Get in Touch</h4>
                     </div>

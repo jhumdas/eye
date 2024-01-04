@@ -1124,6 +1124,11 @@
     line-height: 150%;
     /* 24px */
     letter-spacing: 0.48px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+.fromSubmitbtn:hover{
+    background-color: #c13535;
 }
 
 .contactus h4 {

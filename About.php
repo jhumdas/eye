@@ -18,7 +18,7 @@
 
 <section class="aboutcontenSection">
     <div class="Cust_container">
-        <div class="aboutContain">
+        <div class="aboutContain" data-aos="fade-up" data-aos-duration="2000">
             <div class="aboutTitle">
                 <h5>About Us</h5>
             </div>

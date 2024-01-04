@@ -4,6 +4,8 @@
 <script src='assets/scripts/script.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <section class="footer">
     <div class="Cust_container">
         <div class="row">
@@ -26,7 +28,7 @@
 
             <div class="col-lg-4 col-md-4 col-12">
                 <div>
-                <h3>Quick Links</h3>
+                    <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -42,6 +44,10 @@
 </section>
 
 
+
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
