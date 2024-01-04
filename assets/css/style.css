@@ -20,8 +20,8 @@ h5,
 h6,
 p,
 ul {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .Cust_container {
   width: 92%;
@@ -305,6 +305,9 @@ margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
+  .footer ul{
+    padding: 0;
+  }
   .toggole a {
     display: block;
   }

@@ -22,6 +22,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +48,9 @@
                     <li><a href='home.php'>Home</a></li>
                     <li><a href='About.php'>About</a></li>
                     <li><a href='HVAC.php'>Industry</a></li>
-                    <li><a href='#'>FAQs</a></li>
+                    <li><a href='FAQ.php'>FAQs</a></li>
                     <li><a href='blog.php'>Blog</a></li>
-                    <li><a href='#'>Contact Us</a></li>
+                    <li><a href='contact.php'>Contact Us</a></li>
 
                 </ul>
                 <div class="toggole" onclick="openSidebar ()">
@@ -60,9 +63,9 @@
                         <li><a href='home.php'>Home</a></li>
                         <li><a href='About.php'>About</a></li>
                         <li><a href='HVAC.php'>Industry</a></li>
-                        <li><a href='#'>FAQs</a></li>
+                        <li><a href='FAQ.php'>FAQs</a></li>
                         <li><a href='blog.php'>Blog</a></li>
-                        <li><a href='#'>Contact Us</a></li>
+                        <li><a href='contact.php'>Contact Us</a></li>
 
                     </ul>
                 </div>
