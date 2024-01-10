@@ -1,3 +1,12 @@
+
+.blogResponBradcome{
+    display: none;
+}
+
+
+
+
+
 .aboutbanner {
     width: 100%;
     height: auto;
@@ -31,6 +40,7 @@
 
 }
 
+
 .bannerTitle h2 {
     text-align: center;
     width: 100%;
@@ -45,29 +55,51 @@
     text-transform: uppercase;
 }
 
+.bradecome{
+    white: 100%;
+    height: auto;
+      background-color: #383838;
+    padding-top: 70px;
+}
+.FAQbradecome{
+       white: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+
 .Anoutbannerlink {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .Anoutbannerlink a {
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #FFF;
-    margin-right: 10px;
+color: #535353;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+text-decoration-line: underline;
+text-decoration: none;
 }
-
+.Anoutbannerlink i{
+    margin: 0px 10px;
+}
 .Anoutbannerlink a:hover {
-    color: #FFF;
+color: #535353;
+text-decoration: none;
+}
+.Anoutbannerlink a.active{
+    color: #000;
+    font-weight: 600;
 }
 
 .aboutcontenSection {
     width: 100%;
     height: auto;
-    padding: 80px 0px;
+    padding: 60px 0px;
     background-color: #383838;
 }
 
@@ -106,19 +138,26 @@
     height: auto;
     margin-top: 60px;
 }
-
+.mechanicalSection{
+    text-decoration: none;
+}
+.mechanicalSection:hover{
+    text-decoration: none;
+}
 .mechanicalCards {
     width: 100%;
-    height: 560px;
+     height: 610px;
     border-radius: 36px;
     border: 2px solid #D9D9D9;
     padding: 20px;
     transition-property: all;
     transition-duration: 700ms;
+    position: relative;
+    text-decoration: none;
 }
 
 .mechanicalCards:hover {
-    border: 3px solid #D9D9D9;
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 63%);
 }
 
 .cardimg {
@@ -136,7 +175,7 @@
 .cardcontain {
     padding-top: 20px;
     width: 100%;
-    height: 235px;
+      height: 280px;
     overflow-y: auto;
 }
 
@@ -214,10 +253,12 @@
 }
 
 .DomainSection .row {
-    align-items: center;
-    margin: 20px 0px 80px;
+    align-items: flex-start;
+    margin: 40px 0px 80px;
 }
-
+.domainTitle{
+       margin-bottom: 35px;
+}
 .domainTitle h5 {
     color: #E3E3E3;
     /* text-align: justify; */
@@ -225,8 +266,16 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 200%;
-    margin-bottom: 30px;
+    line-height: normal;
+}
+.domainTitle p{
+       color: #E3E3E3;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 5px;
 }
 
 .domainContain {
@@ -256,10 +305,20 @@
     line-height: 150%;
     padding-left: 5px;
 }
+.hvfeContaon{
+    color: #E3E3E3;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 5px;
+}
 
 .domainImg1 {
     width: 100%;
-    height: 202px;
+    height: auto;
+    margin-top: 3px;
 }
 
 .domainImg1 img {
@@ -545,26 +604,26 @@
 }
 
 .blogdtlsImg {
-    max-width: 1000px;
-    height: 450px;
-    margin: 0 auto 40px;
+    width: 100%;
+    height: 375px;
+    margin: 0 auto 25px;
     object-fit: cover;
 }
 
 .blogdtlsImg img {
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 45px;
 }
 
 .blogdtls p {
     color: #E3E3E3;
-    text-align: justify;
+    /* text-align: justify; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 27px;
     letter-spacing: 1.3px;
     margin-bottom: 25px;
 }
@@ -575,7 +634,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .blogUserDtls {
@@ -583,12 +642,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 15px;
 }
 
 .userImg {
-    min-width: 50px;
-    height: 50px;
+     min-width: 41px;
+    height: 41px;;
 }
 
 .userImg img {
@@ -601,7 +660,7 @@
     color: #E3E3E3;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
@@ -620,7 +679,7 @@
 .blogDateSection p {
     color: #E3E3E3;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
@@ -630,14 +689,14 @@
 
 .blogDateSection i {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .blogBommentSection p {
     width: 100%;
     color: #E3E3E3;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
@@ -650,20 +709,20 @@
     height: auto;
     background: #d5eaee;
     box-shadow: 4px 1px 8px 2px rgba(0, 0, 0, 0.3);
-    padding: 60px;
-    margin-bottom: 40px;
+    padding: 35px;
+    margin-bottom: 25px;
 }
 
 .blogdtlsNotes p {
     color: #15063F;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.9em;
+    line-height: 30px;
 }
 
 .BlogsocalLink {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background-color: #6A6A6A;
     border-radius: 5px;
     display: flex;
@@ -676,7 +735,7 @@
 .BlogsocalLink a {
     color: #d5eaee;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .BlogsocalLink a:hover {
@@ -713,36 +772,36 @@
 
 
 /* start accodian */
-.accs {
+.accodianSection .accs {
     width: 100%;
     /* max-width: 798px; */
 }
 
-.acc-header-title {
+.accodianSection .acc-header-title {
     font: normal normal normal 48px/35px Questrial;
     margin-top: 5px;
     margin-bottom: 23px;
 }
 
-.acc-subtitle {
+.accodianSection .acc-subtitle {
     max-width: 1327px;
     font: normal normal 300 18px/35px Poppins;
     margin: 0;
 }
 
-.acc-body {
+.accodianSection .acc-body {
     display: flex;
     gap: 80px;
 }
 
-.acc-content {
+.accodianSection .acc-content {
     display: none;
     margin-bottom: 36px;
     text-align: left;
     font: normal normal 300 18px/35px Poppins;
 }
 
-.acc-item p {
+.accodianSection .acc-item p {
     display: none;
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -756,7 +815,7 @@
     border-top: 1px solid #D3D3D3;
 }
 
-.acc-item .accsBtn {
+.accodianSection .acc-item .accsBtn {
     display: none;
     outline: none;
     border: none;
@@ -775,7 +834,7 @@
     /* 144.444% */
 }
 
-.acc-title {
+.accodianSection .acc-title {
     display: flex;
     align-items: center;
     font: normal normal normal 25px/35px Questrial;
@@ -784,7 +843,7 @@
     padding: 30px 0px;
 }
 
-.acc-item h3 {
+.accodianSection .acc-item h3 {
     display: flex;
     align-items: center;
     user-select: none;
@@ -792,31 +851,33 @@
     margin: 0;
     color: #000;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.acc-item h3 span {
+.accodianSection .acc-item h3 span {
     flex-grow: 1;
 }
-
+  .blogTabs #accordion::-webkit-scrollbar{
+        display: none;
+    }
 /* .acc-item h3:before {
     content: url("https://svgshare.com/i/zR1.svg");
     margin-right: 30px;
 } */
 
-.acc-title span {
+.accodianSection .acc-title span {
     flex-grow: 1;
 }
 
-.acc-title:before {
+.accodianSection .acc-title:before {
     content: url("https://svgshare.com/i/zR1.svg");
     margin-right: 30px;
 }
 
-.acc-chevron {
+.accodianSection .acc-chevron {
     transform: rotate(180deg);
     height: 20px;
     margin-left: 20px;
@@ -825,7 +886,7 @@
     color: #000;
 }
 
-.acc-item {
+.accodianSection .acc-item {
     transition: 1s;
     border-radius: 8px;
     border: 1px solid #D3D3D3;
@@ -835,69 +896,190 @@
     padding: 30px 50px;
 }
 
-.acc-item:last-child {
+.accodianSection .acc-item:last-child {
     border-bottom: none;
 }
+.blogDtlsPage{
+    position: relative;
+}
+.ourBlogs{
+    padding: 0 50px;
+    width: calc(100% - 18rem);
+}
+.gjhgh{
+    display: flex;
+}
+.blogTabs{
+    position: sticky;
+    top: 0;
+    right: 0;
+    background: #2b2a2a;
+    height: 100vh;
+    width: 18rem;
+    bottom: 100%;
+ 
+}
+.blogTabs #accordion{
+        width: 100%;
+    height: 78vh;
+    overflow-y: auto;
+}
+.blogTabs .accordion::-webkit-scrollbar{
+    display: none;
+}
+
+.blogTabs .blogTabBtn::before {
+  content: "\f107";
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  display: block;
+  font-family: Fontawesome;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.blogTabs .blogTabBtn[aria-expanded="true"]::before {
+  content: "\f106";
+  color: #000;
+}
+.blogTabs .nav-pills .nav-link{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #383838;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 14px 0px rgb(168 168 168 / 29%);
+    margin-bottom: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      gap: 8px;
+    padding: 8px;
+}
+.blogTabs .nav-pills .nav-link.active{
+        background: #d5eaee;
+            color: #486284;
+            font-weight: 500;
+}
+.blogTabs .nav-pills .nav-link.active .tabContainTitle h6{
+    font-weight: 700;
+}
+.blogTabImg{
+     min-width: 80px;
+    height: 60px;
+}
+.blogTabImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.tabContainSection{
+width: 100%;
+overflow: hidden;
+}
+.tabContainTitle h6{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+     text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.tabContainDtls p{
+ margin-bottom: 0px;
+     font-size: 10px;
+    line-height: normal;
+     overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+/*.blogcardwh{*/
+/*        width: 100%;*/
+/*    overflow-y: hidden;*/
+/*}*/
+
+.tabDtlsTitle h4{
+    width: 100%;
+    height: auto;
+    color: #FFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;  
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width: 1680px) {
-    .acc-wrapper {
+    .accodianSection .acc-wrapper {
         width: calc(100% - 80px);
     }
 }
 
 @media screen and (max-width: 1400px) {
-    .acc-body {
+   .accodianSection .acc-body {
         gap: 40px;
     }
 
-    .accs {
+   .accodianSection .accs {
         min-width: calc(50% - 20px);
     }
 
-    .acc-img {
+    .accodianSection .acc-img {
         width: calc(50% - 20px);
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .acc-body {
+    .accodianSection .acc-body {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    .accs {
+    .accodianSection .accs {
         max-width: initial;
     }
 
-    .acc-img {
+    .accodianSection .acc-img {
         max-width: initial;
         width: 100%;
         aspect-ratio: 410/247;
     }
 
-    .accs {
+    .accodianSection .accs {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 864px) {
-    .acc-wrapper {
+    .accodianSection .acc-wrapper {
         width: calc(100% - 20px);
         padding: 0px 10px;
         margin-top: 33px;
         margin-bottom: 154px;
     }
 
-    .acc-body {
+    .accodianSection .acc-body {
         gap: 7px;
     }
 
-    .acc-header {
+    .accodianSection .acc-header {
         margin-bottom: 30px;
     }
 
-    .acc-header b {
+    .accodianSection .acc-header b {
         display: none;
     }
 }
@@ -1184,7 +1366,21 @@
     letter-spacing: 0.32px;
     margin: 0;
 }
-
+.tab-content{
+        width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.blogConainSection{
+    height: 300px;
+    overflow-y: auto;
+}
+.blogConainSection::-webkit-scrollbar{
+    display: none;
+}
+.tab-content::-webkit-scrollbar{
+    display: none;
+}
 .contactLocation a {
     text-decoration: none;
     color: #1A202C;
@@ -1201,6 +1397,20 @@
 .contactLocation a:hover {
     text-decoration: none;
 }
+.blogTabTitle{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.blogTabTitle h6{
+    padding: 25px;
+    color: #fff;
+    font-size: 27px;
+      font-style: normal;
+    font-weight: 700;
+    text-align: center;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        letter-spacing: 1.1px;
+}
 
 .contactMap {
     max-width: 350px;
@@ -1214,21 +1424,91 @@
     outline: none;
 }
 
+.blogTabs .card{
+    background: transparent;
+    margin-bottom: 15px;
+    border: none;
+}
 
+.blogTabs .blogTabBtn{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+}
+.blogTabs .arrow {
+    position: relative;
+    top: 5pt;
+    float: right;
+    display: inline-block;
+    border-right: 0.14em solid;
+    border-bottom: 0.14em solid;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    margin-right: 0.5em;
+    transition: ease-in 0.2s;
+}
 
+.rotated{
+    transform: rotate(45deg);
+}
 
+.click.collapsed .icon {
+transform: rotate(180deg);
+transition: .3s ease-in-out;
+}
+.blogTabs .card-header{
+    background: transition;
+    border-bottom: none;
+        box-shadow: 0 0 10px 0px #00000057;
+    padding: 0;
+}
 
+.collapse.show .blogTabs .card-header{
+        background-color: #d5eaee;
+    color: #486284;
+}
 
+.accordion .card-header:after {
+    font-family: FontAwesome;  
+    content: "\f105";
+    float: right; 
+    color: #fff;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f107"; 
+}
+.blogToggleSection{
+    display: none;
+}
 
+.blogsectionown #accordion button{
+    padding: 0.75rem 1.25rem;
+}
 
-
-
-
-
-
+.blogsectionown #accordion button[aria-expanded="true"]{
+    background-color: #d5eaee;
+    color: #000;
+}
+.blogTabs .card-body{
+        height: 60vh;
+    overflow-y: auto;
+}
+.blogTabs .card-body::-webkit-scrollbar{
+    display: none;
+}
 
 
 @media(max-width:991px) {
+    .ProductDtls{
+    height: 560px;
+    }
     .Anoutbannerlink a {
         font-size: 14px;
     }
@@ -1329,8 +1609,9 @@
     }
 
     .blogcardTitle h6 {
-        padding: 13px 17px;
-        font-size: 17px;
+          padding: 3px 17px;
+    font-size: 17px;
+        margin: 16px 25px;
     }
 
     .blogTitle h3 {
@@ -1339,7 +1620,7 @@
     }
 
     .blogSection .row {
-        row-gap: 60px;
+        row-gap: 40px;
     }
 
     .blogSection {
@@ -1347,14 +1628,14 @@
     }
 
     .blogdtlsImg {
-        height: 330px;
+        height: 270px;
     }
 
     .blogdtls p {
-        font-size: 19px;
-        line-height: 30px;
-        letter-spacing: 0.3px;
-        margin-bottom: 25px;
+           font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
     }
 
     .blogDtlsTitle h3 {
@@ -1363,7 +1644,7 @@
     }
 
     .userName h6 {
-        font-size: 22px;
+        font-size: 17px;
     }
 
     .blogUserDtls {
@@ -1371,29 +1652,41 @@
     }
 
     .blogUserSocal {
-        gap: 15px;
+        gap: 8px;
     }
 
     .blogDateSection p {
-        font-size: 16px;
+        font-size: 11px;
     }
 
     .blogBommentSection p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .userImg {
-        min-width: 45px;
-        height: 45px;
+        min-width: 40px;
+        height: 40px;
     }
 
     .userDtlsSection {
-        margin-bottom: 26px;
+        margin-bottom: 17px;
+    }
+    .blogTabImg{
+            min-width: 75px;
+    height: 50px;
+    }
+    .tabContainTitle h6 {
+    font-size: 13px;
     }
 
     .blogdtlsNotes {
-        padding: 50px;
+        padding: 25px;
     }
+    .blogdtlsNotes p{
+            font-size: 16px;
+                line-height: 27px;
+    }
+   
 
     .BlogsocalLink a {
         font-size: 16px;
@@ -1407,9 +1700,90 @@
     .fromContact .dropdown-content {
         min-width: 282px;
     }
+    .tab-content{
+        height: auto;
+    }
+    /*.blogTabs .nav{*/
+    /*        width: 100%;*/
+    /*height: 120px;*/
+    /*      flex-direction: row;*/
+    /*overflow-x: auto;*/
+    /*flex-wrap: nowrap;*/
+    /*gap: 20px;*/
+    /*}*/
+        /*.blogTabs .nav::-webkit-scrollbar{*/
+        /*    display: none;*/
+        /*}*/
+    .blogTabs .nav-pills .nav-link {
+    max-width: 400px;
+    }
+    
+        .ourBlogs {
+    padding: 0 25px;
+    }
 }
 
 @media(max-width:767px) {
+    .blogResponBradcome{
+        display: block;
+            background: #2b2a2a;
+    }
+    /*.Blogbradecome {*/
+    /*    display: none;*/
+    /*}*/
+    .blogTabs #accordion{
+        height: auto;
+    }
+    .blogTabImg{
+        min-width: 97px;
+    height: 58px;
+    }
+    .tabContainDtls p{
+           font-size: 12px; 
+    }
+    .tabContainTitle h6 {
+    font-size: 15px;
+}
+  
+    .blogTabs{
+        height: auto;
+    }
+    .blogTabs .card{
+        width: 100%;
+        min-width: 290px;
+    }
+    .blogcardwh {
+    width: 100%;
+    overflow-y: hidden;
+}
+.blogConainSection {
+    height: 400px;
+}
+.blogTabs .nav-pills .nav-link{
+    margin-bottom: 0;
+}
+    .nav.nav-pills{
+        gap: 20px;
+    }
+    .nav.nav-pills::-webkit-scrollbar{
+        display: none;
+    }
+    .blogTabs .nav-pills .nav-link{
+        width: 100%;
+        max-width: 100%;
+    }
+    .blogTabs{
+        width: 100%;
+    }
+    .blogsectionown{
+    width: 100%;
+}
+    .card{
+        width: 30%;
+    }
+    .ourBlogs{
+        width: 100%;
+    }
     .bannerTitle h2 {
         font-size: 28px;
     }
@@ -1436,9 +1810,9 @@
         height: 295px;
     }
 
-    .domainContain {
-        height: 180px;
-    }
+    /*.domainContain {*/
+    /*    height: 180px;*/
+    /*}*/
 
     .DomainSection .row {
         row-gap: 30px;
@@ -1511,7 +1885,7 @@
     }
 
     .ProductDtls {
-        height: 300px;
+        height: 430px;
     }
 
     .blogTitle h3 {
@@ -1524,7 +1898,7 @@
     }
 
     .blogdtlsImg {
-        height: 280px;
+        height: 270px;
     }
 
     .blogdtls p {
@@ -1583,7 +1957,7 @@
     }
 
     .faqSection {
-        padding: 40px 0px;
+        padding: 20px 0px;
     }
 
     .ContactSection {
@@ -1609,9 +1983,26 @@
         max-width: 550px;
         margin: 50px auto 30px;
     }
+    .gjhgh{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .ourBlogs{
+        width: 100%;
+    }
+      .accodianSection .acc-item{
+            padding: 25px 20px;
+    }
+    .FAQbradecome{
+            padding-top: 35px;
+    }
+
 }
 
 @media(max-width:575px) {
+    .ProductDtls {
+    height: 385px;
+}
     .bannerTitle h2 {
         font-size: 22px;
     }
@@ -1651,7 +2042,7 @@
     }
 
     .mechanicalCards {
-        height: 592px;
+         height: 645px;
     }
 
     .hvacSection {
@@ -1705,10 +2096,6 @@
 
     .productimg {
         height: 285px;
-    }
-
-    .ProductDtls {
-        height: 300px;
     }
 
     .blogImg {
@@ -1782,10 +2169,61 @@
         margin-top: 20px;
         font-size: 16px;
     }
-
+.tabDtlsTitle h4{
+        font-size: 30px;
+}
+.blogdtlsNotes {
+    padding: 25px;
+    line-height: 1.5em;
+}
+.accodianSection .acc-item h3{
+        font-size: 18px;
+}
+.accodianSection .acc-item {
+    padding: 18px 15px;
+}
+.accodianSection .acc-chevron{
+        height: 15px;
+}
+.faqTitle h5{
+        font-size: 33px;
+            margin-bottom: 23px;
+}
 }
 
 @media(max-width:480px) {
+    .ProductDtls {
+    height: 400px;
+}
+       .tabContainTitle h6 {
+    font-size: 14px;
+}
+  .tabContainDtls p {
+    font-size: 11px;
+}
+    .domainContain{
+            height: 290px;
+    }
+    .DomainSection{
+            margin-top: -2px;
+    }
+    .hvacDtlsSection{
+            margin-top: -8px;
+    }
+    .cardcontain{
+            height: 323px;
+    }
+    .accodianSection .acc-item {
+    padding: 14px 12px;
+        margin-bottom: 15px;
+}
+.accodianSection .acc-item h3 {
+    font-size: 15px;
+}
+.accodianSection .acc-chevron {
+    height: 13px;
+}
+  
     .bannerTitle h2 {
         font-size: 21px;
         text-align: center;
@@ -1813,10 +2251,12 @@
         height: 170px;
     }
 
-    .mechanicalCards {
-        height: 546px;
-    }
-
+    /*.mechanicalCards {*/
+    /*    height: 546px;*/
+    /*}*/
+/*.hvacSection .row{*/
+/*        row-gap: 15px;*/
+/*}*/
     .aboutTitle h5 {
         font-size: 25px;
         line-height: normal;
@@ -1970,6 +2410,7 @@
 
     .userDtlsSection {
         flex-wrap: wrap;
+            gap: 5px;
     }
 
     .blogUserSocal {
@@ -1986,8 +2427,8 @@
     }
 
     .blogdtlsNotes {
-        padding: 30px;
-        line-height: 1.5em;
+      padding: 22px;
+    line-height: normal;
     }
 
     .blogdtlsNotes p {
@@ -2019,14 +2460,25 @@
     .acc-item p {
         margin-bottom: 0;
     }
+    .accodianSection .acc-item .accsBtn{
+        margin-top: 19px;
+    padding: 4px 17px;
+        font-size: 14px;
+    }
+    .accodianSection .acc-item p{
+            line-height: 21px;
+    margin-top: 18px;
+    padding-top: 19px;
+        font-size: 13px;
+    }
 
     .faqTitle h5 {
-        font-size: 32px;
+        font-size: 28px;
         margin-bottom: 25px;
     }
 
     .faqSection {
-        padding: 30px 0px;
+        padding: 20px 0px;
     }
 
     .contactTitle h4 {
@@ -2036,4 +2488,20 @@
     .contactLocation p{
         font-size: 15px;
     }
+    .tabDtlsTitle h4 {
+    font-size: 26px;
+}
+.aboutcontenSection{
+    margin-top: -2px;
+}
+.bradecome{
+        padding-top: 30px;
+}
+/*.blogTabImg {*/
+/*    min-width: 85px;*/
+/*    height: 64px;*/
+/*}*/
+.tabContainDtls p{
+    font-size: 13px;
+}
 }

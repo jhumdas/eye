@@ -1,36 +1,65 @@
+
+// header active
+window.addEventListener('load', function () {
+  let ch=window.location.href;
+  let chStr=String(ch);
+  if(chStr.indexOf('.php')===-1){
+      document.querySelector('.sarNavLink').classList.add('activeSarkari');
+  }
+  let chLen=chStr.lastIndexOf('/');
+  let chStrSlice=chStr.slice(chLen+1);
+  const savLink2=document.querySelectorAll('.sarNavLink');
+  for(let link of savLink2){
+      if(link.getAttribute('href')===chStrSlice){
+          link.classList.add('activeSarkari');
+      }
+  }
+  if(chStrSlice==="HVAC.php"){
+      document.querySelector('.induClrBtn').style.cssText+="color: #000;";
+  }else{
+      document.querySelector('.induClrBtn').style.cssText+="color: #486284;";
+  }
+})
 /* Header Dropdown */
 function myheaderFunction() {
-    document.getElementById("myheaderDropdown").classList.toggle("show");
+  if(!document.getElementById('myheaderDropdown').classList.contains('show')){
+      document.querySelector('.clsSpan').innerHTML='<i class="fa-solid fa-angle-up"></i>';
+      document.getElementById("myheaderDropdown").classList.add("show");
+  }else{
+      document.querySelector('.clsSpan').innerHTML='<i class="fa-solid fa-angle-down"></i>';
+      document.getElementById("myheaderDropdown").classList.remove("show");
   }
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
+}
 
 /* sidebar Dropdown */
 function mysidebarFunction() {
-    document.getElementById("mysidebarDropdown").classList.toggle("show");
-  }
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+  document.getElementById("mysidebarDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
+}
 
 
 
@@ -38,23 +67,23 @@ function mysidebarFunction() {
 /***mobile-sidebar****/
 
 function openSidebar() {
-    document.getElementById('mobile_sidebar').classList.add('open');
+  document.getElementById('mobile_sidebar').classList.add('open');
 
 }
 function closeSidebar() {
 
-    document.getElementById('mobile_sidebar').classList.remove('open')
+  document.getElementById('mobile_sidebar').classList.remove('open')
 }
 
 
 /**header-sticky****/
 function stickyHeader() {
-    if (window.scrollY > 100) {
-        document.getElementById('header').classList.add('sticky');
-    }
-    else {
-        document.getElementById('header').classList.remove('sticky');
-    }
+  if (window.scrollY > 100) {
+      document.getElementById('header').classList.add('sticky');
+  }
+  else {
+      document.getElementById('header').classList.remove('sticky');
+  }
 }
 window.addEventListener('scroll', stickyHeader);
 
@@ -63,50 +92,34 @@ window.addEventListener('scroll', stickyHeader);
 // *****accodian*****
 
 document.addEventListener("DOMContentLoaded", function () {
-    const accordionItems = document.querySelectorAll(".acc-item");
+  const accordionItems = document.querySelectorAll(".acc-item");
 
-    accordionItems.forEach((item) => {
-        const title = item.querySelector(".acc-item h3");
-        const content = item.querySelector(".acc-item p");
-        const contentbtn = item.querySelector(".acc-item .accsBtn");
-        const chevron = item.querySelector(".acc-chevron");
+  accordionItems.forEach((item) => {
+      const title = item.querySelector(".acc-item h3");
+      const content = item.querySelector(".acc-item p");
+      const chevron = item.querySelector(".acc-chevron");
 
-        title.addEventListener("click", () => {
-            const isExpanded = content.style.display === "block";
+      title.addEventListener("click", () => {
+          const isExpanded = content.style.display === "block";
 
-            // Close all accordion items
-            accordionItems.forEach((otherItem) => {
-                if (otherItem !== item) {
-                    otherItem.querySelector(".acc-item p").style.display = "none";
-                    otherItem.querySelector(".acc-chevron").style.transform =
-                        "rotate(180deg)";
-                }
-            });
+          // Close all accordion items
+          accordionItems.forEach((otherItem) => {
+              if (otherItem !== item) {
+                  otherItem.querySelector(".acc-item p").style.display = "none";
+                  otherItem.querySelector(".acc-chevron").style.transform =
+                      "rotate(180deg)";
+              }
+          });
 
-            // Toggle the clicked accordion item
+          // Toggle the clicked accordion item
 
-            content.style.display = isExpanded ? "none" : "block";
-            contentbtn.style.display = isExpanded ? "none" : "block";
-            chevron.style.transform = isExpanded ? "rotate(180deg)" : "rotate(0deg)";
-        });
-    });
+          content.style.display = isExpanded ? "none" : "block";
+          chevron.style.transform = isExpanded ? "rotate(180deg)" : "rotate(0deg)";
+      });
+  });
 });
 
 
-// ****From DropDown****
 
-function myfromFunction() {
-    document.getElementById("myFromDropdown").classList.toggle("show");
-}
-window.onclick = function (event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
+
+

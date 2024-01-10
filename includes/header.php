@@ -42,26 +42,26 @@
         <div class="row" style="align-items:center;">
             <div class="col-lg-3 col-md-3 col-6">
                 <div class="logo">
-                    <a href="home.php"><img src='assets/imgaes/logo.png' alt='' /></a>
+                    <a href="index.php"><img src='assets/imgaes/logo.png' alt='' /></a>
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-6">
                 <ul class="navMenu">
-                    <li><a href='home.php'>Home</a></li>
-                    <li><a href='About.php'>About</a></li>
+                    <li><a href='index.php' class="sarNavLink">Home</a></li>
+                    <li><a href='About.php' class="sarNavLink">About</a></li>
                     <li>
                         <div class="dropdown">
-                            <button onclick="myheaderFunction()" class="dropbtn">Industry <i class="fa-solid fa-angle-down"></i></button>
+                            <button onclick="myheaderFunction()" class="dropbtn dropbtnHead induClrBtn">Industry <span class="clsSpan"><i class="fa-solid fa-angle-down"></i></span></button>
                             <div id="myheaderDropdown" class="dropdown-content">
                                 <a href="HVAC.php">HVAC</a>
-                                <a href="#">Lorem Ipsum</a>
-                                <a href="#">Lorem Ipsum</a>
+                                <!--<a href="#">Lorem Ipsum</a>-->
+                                <!--<a href="#">Lorem Ipsum</a>-->
                             </div>
                         </div>
                     </li>
-                    <li><a href='FAQ.php'>FAQs</a></li>
-                    <li><a href='blog.php'>Blog</a></li>
-                    <li><a href='contact.php'>Contact Us</a></li>
+                    <li><a href='FAQ.php' class="sarNavLink">FAQs</a></li>
+                    <li><a href='blog.php' class="sarNavLink">Blog</a></li>
+                    <li><a href='contact.php' class="sarNavLink">Contact Us</a></li>
 
                 </ul>
                 <div class="toggole" onclick="openSidebar ()">
@@ -69,17 +69,20 @@
                 </div>
 
                 <div class="mobile_sidebar" id="mobile_sidebar">
-                    <a href="#" class="closeBtn" onclick="closeSidebar ()"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                    <div class="sidebarHeader">
+                        <a href="index.php" class="sidebarLogo">
+                            <img src='assets/imgaes/logo.png' alt='' />
+                            </a>
+                    <a href="#" class="closeBtn" onclick="closeSidebar ()"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
                     <ul class="nav_Menu">
-                        <li><a href='home.php'>Home</a></li>
+                        <li><a href='index.php'>Home</a></li>
                         <li><a href='About.php'>About</a></li>
                         <li>
                             <div class="dropdown">
-                                <button onclick="mysidebarFunction()" class="dropbtn">Industry <i class="fa-solid fa-angle-down"></i></button>
+                                <button onclick="mysidebarFunction()" class="dropbtn dropbtnSide">Industry <span class="clsSideSpan"><i class="fa-solid fa-angle-down"></i></span></button>
                                 <div id="mysidebarDropdown" class="dropdown-content">
                                     <a href="HVAC.php">HVAC</a>
-                                    <a href="#">Lorem Ipsum</a>
-                                    <a href="#">Lorem Ipsum</a>
                                 </div>
                             </div>
                         </li>
@@ -96,3 +99,12 @@
 
 
 <body>
+    <script>
+        document.querySelector('.dropbtnSide').addEventListener('click', function(){
+            if(document.getElementById('mysidebarDropdown').classList.contains('show')){
+        document.querySelector('.clsSideSpan').innerHTML='<i class="fa-solid fa-angle-up"></i>';
+    }else{
+        document.querySelector('.clsSideSpan').innerHTML='<i class="fa-solid fa-angle-down"></i>';
+    }
+        })
+    </script>
