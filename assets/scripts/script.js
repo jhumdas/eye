@@ -122,4 +122,71 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// ****From DropDown****
+function myfromFunction() {
+  document.getElementById("myFromDropdown").classList.toggle("show");
+}
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+          }
+      }
+  }
+}
+
+
+
+{
+  (function($){
+    $.fn.extend({
+        mAccord: function(options) {
+            var defaults = {
+            };
+            var options = $.extend(defaults, options);
+
+            return this.each(function() {
+              var o = options,
+                  // container = $(this).find(".accordion-container"),
+                  trigger = $(this).find(".accordion h3"),
+                  content = $(this).find(".accordion-content"),
+                 
+                  obj = $(trigger).prev();
+                  $(".accordion-container .accordion:nth-child(1) h3").addClass("active");
+                  $(".accordion-container .accordion:nth-child(1) h3").next().slideDown(500);
+              trigger.click(function (e) {
+                e.stopPropagation();
+                var target = $(this).next();
+
+                $(this).addClass('active'),
+                trigger.not(this).removeClass('active'),
+                target.stop().delay().slideDown(500);
+
+                if (target.is(':visible')) { 
+                  $(this).removeClass('active'),
+                  target.stop().slideUp();
+                } else if (content.not(target).is(':visible')){
+                  $(content.not(target)).stop().slideUp(500);
+                }
+              });
+              
+					});
+        }
+    });
+})(jQuery);
+
+(function($) { 
+  $('.accordion-container').mAccord();
+})(jQuery);
+}
+
+
+
+
+
+
 
