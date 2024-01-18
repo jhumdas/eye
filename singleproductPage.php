@@ -8,13 +8,17 @@
         <div class="bannerTitle">
             <h2>Single Product</h2>
         </div>
+     
+    </div>
+</section>
+<section class="bradecome">
+    <div class="Cust_container">
         <div class="Anoutbannerlink">
-            <a href="HVAC.php">HVAC <i class="fa-solid fa-angle-right"></i></a>
-            <a href="singleproductPage.php">Mechanical</a>
+            <a href="HVAC.php"> <i class="fa-solid fa-chevron-left"></i> HVAC <i class="fa-solid fa-angles-right"></i> </a>
+            <a href="singleproductPage.php" class="active">Mechanical</a>
         </div>
     </div>
 </section>
-
 <section class="areaSection">
     <div class="Cust_container">
         <div class="areaTitle">

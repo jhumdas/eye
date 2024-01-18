@@ -8,13 +8,17 @@
         <div class="bannerTitle">
             <h2>Contact Us</h2>
         </div>
+      
+    </div>
+</section>
+<section class="FAQbradecome">
+    <div class="Cust_container">
         <div class="Anoutbannerlink">
-            <a href="home.php">Home <i class="fa-solid fa-angle-right"></i> </a>
-            <a href="contact.php">Contact</a>
+            <a href="index.php"> <i class="fa-solid fa-chevron-left"></i> Home <i class="fa-solid fa-angles-right"></i> </a>
+            <a href="contact.php" class="active">Contact Us</a>
         </div>
     </div>
 </section>
-
 <section class="faqSection">
     <div class="Cust_container">
         <div class="aboutContain">

@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   background-color: #383838 !important;
   color: #fff!important;
-  font-family: 'Montserrat', sans-serif !important;
+font-family: 'Montserrat', sans-serif !important;
 }
 
 .btn:hover {
@@ -26,6 +26,8 @@ p,
 ul {
   margin: 0px;
   padding: 0px;
+    font-family: 'Montserrat', sans-serif!important;
+font-weight: 500 !important;
 }
 
 .Cust_container {
@@ -71,11 +73,36 @@ ul {
   font-weight: 600;
 }
 
-.logo {
-  width: 211px;
-  height: 81px;
+.activeSarkari{
+    color: #000 !important;
+  font-weight: 600 !important;
 }
 
+.logo {
+    width: 195px;
+    height: 70px;
+}
+.sec2-heading{
+        color: #e3e3e3;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 75px;
+    text-align: center;
+    position: relative;
+}
+.sec2-heading:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #e3e3e3;
+    transform: translate(0px, 20px);
+    bottom: 0;
+    left: 49%;
+}
 .logo img {
   width: 100%;
   height: 100%;
@@ -91,54 +118,96 @@ ul {
   margin-left: auto;
   display: table;
 }
+.aboutContain .mobileBox{
+ 
+   padding-left: 32px!important;
+   padding-right: 32px!important;
+}
 
 /**mobile-sidebar**/
 
 .mobile_sidebar {
   width: 14rem;
   height: 100vh;
-  background-color: #000;
-  padding: 30px;
+    background: #d5eaee;
+  /*padding: 30px;*/
   transform: translateX(-100%);
   position: fixed;
   left: 0;
   z-index: 2;
   transition: 0.5s;
   top: 0;
+      box-shadow: 0px 0px 8px 0px #aaa;
 }
-
+.sidebarHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+padding: 10px 6px;
+border-bottom: 1px solid #365680;
+}
+.sidebarLogo{
+     width: 115px;
+    height: 47px;
+}
+.sidebarLogo img{
+    width: 100%;
+    height: 100%;
+}
 .closeBtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: #fff;
-  font-size: 20px;
-  z-index: 3;
+    /* position: absolute;*/
+    /*top: 15px;*/
+    /*right: 10px;*/
+  color: #365680;
+    font-size: 18px;
+    z-index: 3;
+    background: rgb(30 63 68 / 10%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.closeBtn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .closeBtn:hover {
-  color: #fff;
+  color: #486284;
 }
 
 .mobile_sidebar .nav_Menu li a {
-  color: #fff;
-  padding: 10px 0;
-  display: inline-block;
+    color: #486284;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 15px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #486284;
+}
+.mobile_sidebar .nav_Menu li a:hover{
+    text-decoration: none;
 }
 
 /*  */
 .nav_Menu .dropbtn {
   background-color: transparent;
-  color: #fff;
-  padding: 10px 0;
+  color: #486284;
+  font-weight: 600;
+  padding: 12px 15px 5px 15px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  text-align: start;
+
 }
 
 .nav_Menu .dropbtn i {
-  margin-left: 15px;
-  color: #fff;
+  margin-left: 5px;
+  color: #486284;
 }
 
 /* .nav_Menu .dropbtn:hover,
@@ -149,23 +218,31 @@ ul {
 .nav_Menu .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
+        border-bottom: 1px solid #486284;
 }
 
 .nav_Menu .dropdown-content {
   display: none;
-  background: #000;
-  position: absolute;
-  min-width: 134px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 5;
+   background: #d5eaee;
+    left: 105px;
+    top: 34px;
+    position: absolute;
+    min-width: 150px;
+    overflow: auto;
+    box-shadow: 3px 9px 18px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
 }
 
 .nav_Menu .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 10px 16px!important;
   text-decoration: none;
   display: block;
+      /*border: none !important;*/
+}
+.nav_Menu .dropdown-content a:last-child{
+          border: none !important;
 }
 
 .nav_Menu .dropdown a:hover {
@@ -175,6 +252,7 @@ ul {
 .nav_Menu .show {
   display: block;
 }
+
 
 /*  */
 
@@ -195,7 +273,7 @@ ul {
 }
 
 .navMenu .dropbtn i {
-  margin-left: 10px;
+  margin-left: 5px;
   color: #486284;
   font-size: 14px;
 }
@@ -207,20 +285,20 @@ ul {
 
 .navMenu .dropdown-content {
   display: none;
-  position: absolute;
-  background: rgb(216 222 232 / 97%);
-  min-width: 185px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  top: 62px;
-  z-index: 5;
+    position: absolute;
+      background: rgb(213 234 238);
+    min-width: 185px;
+    overflow: auto;
+    box-shadow: 2px 7px 10px 3px rgb(0 0 0 / 46%);
+    top: 40px;
+    z-index: 5;
 }
 
 .navMenu .dropdown-content a {
-  padding: 12px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   display: block;
-  color: #4F4F4F;
+     color: #5a7492;
   text-align: justify;
   font-family: Plus Jakarta Sans;
   font-size: 16px;
@@ -233,6 +311,7 @@ ul {
 
 .navMenu .dropdown a:hover {
   background-color: #F4F4F5;
+  color: #486284;
 }
 
 .navMenu .show {
@@ -243,12 +322,24 @@ ul {
 .footer {
   background: #d5eaee;
   padding: 50px 0;
+ 
 }
-
+.footer .row{
+    align-items: center;
+         border-bottom: 1px solid #48628429;
+         padding-bottom: 20px;
+}
 .footer .boxx {
   width: 74%;
 }
-
+.footerlogo{
+    width: 250px;
+    height: 100px;
+}
+.footerlogo img{
+    width: 100%;
+    height: 100%;
+}
 .footer h3 {
   font-family: Plus Jakarta Sans;
   font-size: 20px;
@@ -278,7 +369,6 @@ ul {
 
 /**banner***/
 .banner_slide {
-  background-image: url(../imgaes/banner1.png);
   height: 678px;
   background-position: center;
   background-repeat: no-repeat;
@@ -304,7 +394,7 @@ ul {
 .services h3 {
   color: #e3e3e3;
   font-family: "Montserrat", sans-serif;
-  font-size: 34px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
@@ -314,7 +404,7 @@ ul {
 .services p {
   color: #e3e3e3;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
@@ -322,7 +412,7 @@ ul {
 .sec-heading {
   text-transform: capitalize;
   font-family: Plus Jakarta Sans;
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 500;
   text-align: center;
@@ -388,7 +478,7 @@ ul {
   color: #e3e3e3;
   text-align: center;
   font-family: Montserrat;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   text-transform: uppercase;
@@ -422,7 +512,7 @@ ul {
   color: #E3E3E3;
   text-align: center;
   font-family: Plus Jakarta Sans;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   height: 50px;
@@ -432,33 +522,66 @@ ul {
 .featured {
   margin-top: 50px;
 }
+.cardlogo{
+    width: 70px;
+    height: 70px;
+margin: 0px auto;
+}
+.cardlogo img{
+    width: 100%;
+    height: 100%;
+}
 
+.mobileUnderLine{
+       margin: 0 auto;
+    max-width: 800px;
+    height: 2px;
+    background: #9F9F9F;
+    /* padding-top: 30px; */
+    margin-top: 90px;
+}
+.services .row{
+    justify-content: center;
+}
 /***responsive***/
 
 @media (max-width: 991px) {
+    .mobileUnderLine{
+            margin-top: 60px;
+    }
   .banner_slide {
     height: 490px;
   }
 
   .footer {
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 0 ;
   }
 
   .footer .boxx {
     width: 100%;
   }
 
-  .footer .row {
-    gap: 30px;
-  }
+  /*.footer .row {*/
+  /*  gap: 30px;*/
+  /*}*/
 
   .footer .logo {
     margin: 0 auto;
   }
+  .footerlogo {
+    width: 225px;
+    height: 83px;
+}
 }
 
 @media (max-width: 767px) {
+    .footerlogo{
+        margin: 0 auto;
+    }
+     .footer .row {
+    gap: 30px;
+  }
   .footer ul {
     padding: 0;
   }
@@ -481,13 +604,27 @@ ul {
 }
 
 @media (max-width: 480px) {
-  .mobile_sidebar {
-    width: 100%;
-    height: 100%;
-  }
+    .footer li{
+        font-size: 15px;
+    }
+    .footer li a{
+        font-size: 15px;
+    }
   .services h3{
-    font-size: 27px;
-    padding-top: 30px;
+     font-size: 22px;
+    padding-top: 5px;
+  }
+  .sec-heading{
+          font-size: 28px;
+  }
+  .services .box h5{
+          /*font-size: 19px;*/
+          margin-top: 13px;
+  }
+  .services p{
+          font-size: 12px;
+font-weight: 500; 
+margin-bottom: 27px;
   }
   .sec-heading:after{
     left: 43%;
@@ -497,13 +634,13 @@ ul {
 }
 
   .services {
-    padding: 30px 15px;
+    padding: 30px 0px;
   }
   .line{
     margin: 70px auto 0 auto;
   }
   .logo {
-    width: 142px;
-    height: 55px;
+     width: 186px;
+    height: 81px;
 }
 }
